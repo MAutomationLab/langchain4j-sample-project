@@ -15,6 +15,7 @@ public class AssistantTools {
     @Tool
     @Observed
     public String currentTime() {
+        System.out.println("Current time: " + LocalTime.now());
         return LocalTime.now().toString();
     }
 }
