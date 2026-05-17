@@ -17,7 +17,7 @@ public class AssistantTools {
     public String currentTime() {
         System.out.println("Current time: " + LocalTime.now());
         System.out.println("Added for Branch Testing");
-        System.out.println("Added for Branch Testing Via Pull request");
+        System.out.println("Git Stash");
         return LocalTime.now().toString();
     }
 }
