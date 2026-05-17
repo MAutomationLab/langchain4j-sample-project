@@ -16,7 +16,7 @@ public class ChatController {
 
     @GetMapping
     public String chat(@RequestParam String message) {
-        System.out.println("Chat Message: "+message);
+        System.out.println("Chat Messages: "+message);
         return chatModel.chat(message);
     }
 
