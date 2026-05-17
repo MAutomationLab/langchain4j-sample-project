@@ -16,6 +16,7 @@ public class AssistantTools {
     @Observed
     public String currentTime() {
         System.out.println("Current time: " + LocalTime.now());
+        System.out.println("Added for Branch Testing");
         return LocalTime.now().toString();
     }
 }
